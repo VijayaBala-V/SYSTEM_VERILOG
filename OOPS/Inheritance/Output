@@ -1,0 +1,14 @@
+Error-[XMREM] Cross-module reference resolution error
+testbench.sv, 67
+"_if.tb.cb.c"
+  Cross-module reference resolution error, illegal use of modport.
+  
+
+TimeScale is 1 ns / 1 ps
+7 errors
+
+Wrap your _if.tb.cb.c references inside @(_if.tb.cb) blocks.
+
+Do not do assignments or reads on modport signals outside clocking block event context.
+
+This will eliminate the "Cross-module reference resolution error".

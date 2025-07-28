@@ -1,0 +1,68 @@
+-------------------------------------
+--------- Generating array ----------
+-------------------------------------
+addr = 1, data = 4 and color = GREEN
+addr = 7, data = 4 and color = GREEN
+addr = 3, data = 1 and color = YELLOW
+addr = 6, data = 3 and color = YELLOW
+addr = 1, data = 0 and color = GREEN
+-------------------------------------
+------------- find method -----------
+-------------------------------------
+Number of elements for color item 'YELLOW' = 2
+Element 1: 
+addr = 3, data = 1 and color = YELLOW
+Element 2: 
+addr = 6, data = 3 and color = YELLOW
+
+Number of elements for data item in range of 1 to 5 = 4
+Element 1: 
+addr = 1, data = 4 and color = GREEN
+Element 2: 
+addr = 7, data = 4 and color = GREEN
+Element 3: 
+addr = 3, data = 1 and color = YELLOW
+Element 4: 
+addr = 6, data = 3 and color = YELLOW
+-------------------------------------
+--------- find_first method ---------
+-------------------------------------
+Number of elements for color item 'YELLOW' = 1
+Element 1: 
+addr = 3, data = 1 and color = YELLOW
+
+Number of elements for data item in range of 1 to 5 = 1
+Element 1: 
+addr = 1, data = 4 and color = GREEN
+-------------------------------------
+--------- find_last method ----------
+-------------------------------------
+Number of elements for color item 'YELLOW' = 1
+Element 1: 
+addr = 6, data = 3 and color = YELLOW
+
+Number of elements for data item in range of 1 to 5 = 1
+Element 1: 
+addr = 6, data = 3 and color = YELLOW
+-------------------------------------
+---------- unique method ------------
+-------------------------------------
+unique element in arr = '{5, 6, 9, 2, 3, 4, 10} 
+Number of unique elements for addr = 4
+Element 1: 
+addr = 1, data = 4 and color = GREEN
+Element 2: 
+addr = 7, data = 4 and color = GREEN
+Element 3: 
+addr = 3, data = 1 and color = YELLOW
+Element 4: 
+addr = 6, data = 3 and color = YELLOW
+-------------------------------------
+---------- min max method -----------
+-------------------------------------
+min element in arr = '{2} 
+max element in arr = '{10} 
+Min element w.r.t. addr is 
+addr = 1, data = 4 and color = GREEN
+Max element w.r.t. addr is 
+addr = 7, data = 4 and color = GREEN

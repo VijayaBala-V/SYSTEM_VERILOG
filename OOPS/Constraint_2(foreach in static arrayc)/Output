@@ -1,0 +1,14 @@
+Static: arr[0] = 0
+Static: arr[1] = 1
+Static: arr[2] = 2
+Static: arr[3] = 3
+Static: arr[4] = 4
+Static: arr[5] = 5
+Static: arr[6] = 6
+Static: arr[7] = 7
+--------------------
+Dynamic: arr[0] = 0
+Dynamic: arr[1] = 1
+Dynamic: arr[2] = 4
+Dynamic: arr[3] = 9
+Dynamic: arr[4] = 16
